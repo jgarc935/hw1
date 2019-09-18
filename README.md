@@ -16,7 +16,10 @@ This elevator is located at the El Paso Community College  Building A.
 
 ![OutsideControls](Photos/outside.jpeg)
 ![InsideControlsFar](Photos/insideFar.jpg)
-![InsideControlsNear](Photos.insideNear.jpg)
+![InsideControlsNear](Photos/insideNear.jpg)
+
+GIF below
+![GIFOperation](Photos/operation.gif)
 
 Issues/Bad Design:
 1) The layout of the buttons does not depict the layout of the building.
@@ -34,9 +37,5 @@ The elevator provides feedback by lighting up once a button is pressed and by di
 
 A common mistke to make with this design is deciding whether the 1st floor is the 1st floor or if the ground floor is the basement.
 
-%%%Add image of sketch
-
-Part A:
+<h2>Part A:</h2>
 The screen size for my design would 18 inches high and 8 inches wide.
-
-%%%Add image of gif
