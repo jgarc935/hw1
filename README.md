@@ -41,4 +41,4 @@ A common mistke to make with this design is deciding whether the 1st floor is th
 The screen size for my design would 18 inches high and 8 inches wide.
 
 </br>
-![Sketch Gif](Photos/sketchGIF.gif)
+![SketchGif](Photos/sketchGIF.gif)
