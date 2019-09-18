@@ -43,28 +43,28 @@ public void setup(){
 
   fB1 = new Button("1 Bookstore & Cafeteria",25,350,250,50,0);
   allButtons[0] = fB1;
-  soundsS[0] = new SoundFile(this, "audio/s1stfloor.wav");
-  soundsUS[0] = new SoundFile(this, "audio/us1stfloor.wav");
+  soundsS[0] = new SoundFile(this, "data/s1stfloor.wav");
+  soundsUS[0] = new SoundFile(this, "data/us1stfloor.wav");
   fB2 = new Button("2 Police",25,275,250,50,1);
   allButtons[1] = fB2;
-  soundsS[1] = new SoundFile(this, "audio/s2ndfloor.wav");
-  soundsUS[1] = new SoundFile(this, "audio/us2ndfloor.wav");
+  soundsS[1] = new SoundFile(this, "data/s2ndfloor.wav");
+  soundsUS[1] = new SoundFile(this, "data/us2ndfloor.wav");
   fB3 = new Button("3 Library",25,200,250,50,2);
   allButtons[2] = fB3;
-  soundsS[2] = new SoundFile(this, "audio/s3rdfloor.wav");
-  soundsUS[2] = new SoundFile(this, "audio/us3rdfloor.wav");
+  soundsS[2] = new SoundFile(this, "data/s3rdfloor.wav");
+  soundsUS[2] = new SoundFile(this, "data/us3rdfloor.wav");
   fB4 = new Button("4 Library Personnel",25,125,250,50,3);
   allButtons[3] = fB4;
-  soundsS[3] = new SoundFile(this, "audio/s4thfloor.wav");
-  soundsUS[3] = new SoundFile(this, "audio/us4thfloor.wav");
+  soundsS[3] = new SoundFile(this, "data/s4thfloor.wav");
+  soundsUS[3] = new SoundFile(this, "data/us4thfloor.wav");
   fB5 = new Button("5 Admin",25,50,250,50,4);
   allButtons[4] = fB5;
-  soundsS[4] = new SoundFile(this, "audio/s5thfloor.wav");
-  soundsUS[4] = new SoundFile(this, "audio/us5thfloor.wav");
+  soundsS[4] = new SoundFile(this, "data/s5thfloor.wav");
+  soundsUS[4] = new SoundFile(this, "data/us5thfloor.wav");
   bEmergency = new Button("Emergency", 25, 540, 250, 50, 5);
   allButtons[5] = bEmergency;
-  soundsS[5] = new SoundFile(this, "audio/semergency.wav");
-  soundsUS[5] = new SoundFile(this, "audio/usemergency.wav");
+  soundsS[5] = new SoundFile(this, "data/semergency.wav");
+  soundsUS[5] = new SoundFile(this, "data/usemergency.wav");
   bClose = new Button("CLOSE",175,425,100,100, 6);
   allButtons[6] = bClose;
   bOpen = new Button("OPEN",25,425,100,100, 7);
@@ -179,9 +179,11 @@ class Button {
     if(mOver){
     requested = !requested;
     if(requested){
+      if(buttonPosition<6)
     soundsS[buttonPosition].play();
     }
     else{
+      if(buttonPosition<6)
     soundsUS[buttonPosition].play();
     }
     }
