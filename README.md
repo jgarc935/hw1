@@ -18,7 +18,7 @@ This elevator is located at the El Paso Community College  Building A.
 ![InsideControlsFar](Photos/insideFar.jpg)
 ![InsideControlsNear](Photos/insideNear.jpg)
 
-GIF below
+GIF below</br>
 ![GIFOperation](Photos/operation.gif)
 
 Issues/Bad Design:
@@ -39,3 +39,6 @@ A common mistke to make with this design is deciding whether the 1st floor is th
 
 <h2>Part A:</h2>
 The screen size for my design would 18 inches high and 8 inches wide.
+
+</br>
+![Sketch Gif](Photos/sketchGIF.gif)
