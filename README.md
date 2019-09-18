@@ -15,8 +15,8 @@ Links:
 This elevator is located at the El Paso Community College  Building A.
 
 ![OutsideControls](Photos/outside.jpeg)
-![InsideControlsFar](Photos/insideFar.jpg)
-![InsideControlsNear](Photos/insideNear.jpg)
+![InsideControlsFar](Photos/insideFar.jpeg)
+![InsideControlsNear](Photos/insideNear.jpeg)
 
 GIF below</br>
 ![GIFOperation](Photos/operation.gif)
