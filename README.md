@@ -8,7 +8,7 @@ Links:
 
 [Demo](https://jgarc935.github.io/hw1/demo.html)
 
-[Video](youtube.com)
+[Video](https://www.youtube.com/watch?v=EL66hK4Nx5w&feature=youtu.be)
 
 <h2>Part C:</h2>
 
